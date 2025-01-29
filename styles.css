@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Doto:wght@100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box; 
+}
+
+body {
+    height:100vh; 
+    box-sizing: border-box;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow: auto;
+}
+
+
+
+
+.cabecalho-menu-link {
+    font-family: "Doto", sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #fdfdfd;
+    text-decoration: none;
+     gap: 210px;
+     letter-spacing: 1px;
+     padding: 5px 15px;
+     border: 0.2px #fff solid;
+}
+
+.cabecalho {
+    margin-top: 10px;
+    padding: 2% 0% -0% 0%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho-menu-link:hover{
+    text-shadow:0px 0px 10px #5400bc, 0px 0px 10px #5400bc ;
+    background-color: #c482f4b9;
+    padding: 5px 15px;
+    border-radius: 2px;
+    
+   
+    
+}
+
+.cabecalho-menu {
+    gap: 120px;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+
+/* TELA INICIAL */
+
+.inicio{
+    background-image: url(./imagens/fundo-habil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+
+.título-destaque {
+    color: #8000ff;
+}
+
+
+span {
+    color: hwb(266 1% 0%);
+}
+
+.apresentacao {
+    width: 100%;
+    padding: 9% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 102px;
+    margin-top: 90px;
+   
+}
+
+.apresentacao-conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-decoration: none;
+    
+}
+
+.apresentacao-conteudo-titulo {
+    font-size: 2.20rem;
+    font-family: 'Krona One', sans-serif;
+    color: #3700ff;
+    margin-top: -100px;
+}
+
+.apresentacao-conteudo-paragrafo-home {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    
+}
+
+.apresentacao-botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    margin-top: 20px;
+
+}
+
+.imagem {
+    width: 45%;
+    border-radius: 40px;
+    /* border: #6a22df solid 2px; */
+    /* box-shadow: 0px 0px 10px #6a22df, 0px 0px 10px #6a22df; */
+    margin-top: -75px;
+    margin-left: -45px;
+   
+
+}
+
+.links-subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.apresentacao-link {
+    display: flex;
+    justify-content: center;
+    /* background-color:#5422df00;  */
+    border: 3px solid #6a22df;
+    /* background-image: url(./imagens/projetos-fundo.jpg); */
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 15px 25px;
+    color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.btns-redes-home{
+    display: flex;
+    gap: 15px;
+}
+
+.apresentacao-link:hover {
+    background-color: transparent;
+    box-shadow: 0px 0px 10px #6a22df, 0px 0px 10px #6a22df;
+    transition: 0.5s;
+    padding: 15px 25px;
+}
+
+
+/* Sobre Mim*/
+
+.minha-apresentacao{
+    width: 100%;
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 90px;
+
+}
+
+.sobre-mim{
+    background-image: url(./imagens/fundo-habil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.titulo-sobre-mim{
+    /* font-family: "Doto", sans-serif; */
+    font-family: 'Bebas Neue';
+    font-size: 3.1rem;
+    letter-spacing: 5px;
+    margin-top: -60px;
+}
+
+.apresentacao-conteudo-sobre-mim{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 650px;
+    text-align: justify;
+}
+
+.apresentacao-conteudo-paragrafo{
+  max-width: 610px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  font-family: "Geist Mono", monospace;
+
+}
+
+
+.imagem-sobre{
+    border-radius: 50%;
+    margin-top: -120px;
+    width: 400px;
+    
+}
+
+.imagem-sobre.sombra{
+    background: linear-gradient(to right, #8a35c8, #3f18c0, #0686c2);
+	background-size: 180% 180%;
+	animation: gradient-animation 5s ease infinite;
+}
+
+.entre-contato{
+    font-family: 'Bebas Neue';
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+
+.redes1{
+   flex-direction:row ;
+   display: flex;
+   gap: 15px;
+   width: 15px;
+}
+
+.redes1 .btn{
+    padding: 5px 7px;
+}
+
+.gmail-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.gmail{
+    text-decoration: none;
+   color: #f6f6f6;
+   font-size: 18px;
+   font-family: "Geist Mono", monospace;
+   margin-top: -15px;
+}
+
+#copiar{
+    font-size: 16px;
+    padding: 2px 5px;
+    font-family: 'Bebas Neue', sans-serif ;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    border-radius: 1px;
+    background-color: transparent;
+    border: 1.5px solid #4e0560;
+    color: #fff;
+}
+
+.foto-h{
+    border-radius: 30px;
+    width: 40%;
+}
+
+.redes1 .btn:hover{
+   background-color: #313131;
+   border-radius: 30%;
+   padding: 5px 7px;
+
+}
+
+.conteiner-principal{
+    font-size: 1.5rem;
+    font-family: 'Krona One', sans-serif;
+    color: #26b5f7;
+    margin-top: -100px;
+}
+
+
+
+
+/* Habilidades */
+
+.habilidades-body{
+   width: 100%;
+   background-image: url( ./imagens/fundo-habil.jpg);
+   background-size:cover ;
+   background-repeat: no-repeat;
+   height: 100%;
+   background-position: -300px;
+   flex-direction: column;
+}
+
+
+
+.apresentacao-h{
+    width: 100%;
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 0px;
+}
+
+.conteiner-principal-habil{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+   
+}
+
+.habilidades{
+    width: 100%;
+    border-radius: 30px;
+    padding: 150px 60px;
+    z-index: 1;
+}
+
+.titulo-habil h1{
+    margin-top: -100px;
+    margin-bottom: 60px;
+    padding-right: 50px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 1.5px;
+    color: #F6F6F6;
+    font-size: 4.0rem;
+
+    
+}
+
+.titulo-habil{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.cartoes-habilidades{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.cartao-habil{
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #38144d;
+    height: 350px;
+    border-radius: 4px;
+    padding: 1%;
+    flex-direction: column;
+    gap: 45px;
+    border-top: 10px solid #4e0560;
+
+}
+
+.cartao-habil img{
+    width: 120px;
+}
+
+.cartao-habil p{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-family: "Bebas Neue";
+    max-width: 500px;
+}
+
+
+.caixa-seta{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.seta{
+    display: inline-block;
+     margin-top: 60px; 
+     animation: animarSeta 1s ease-in-out infinite alternate;
+  
+}
+
+@keyframes animarSeta {
+    0% {
+      transform: translateY(0); /* Posição inicial */
+    }
+    100% {
+      transform: translateY(-35px); /* Posição final, movendo para cima */
+    }
+}
+
+
+
+
+/* Certificados */
+
+.cursos{
+    display: flex;
+    flex-direction: column;
+    background-color: #272727;
+    border-top: 3px #9d00ff solid;
+    margin-top: -50px;
+}
+
+.caixa-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.t-cursos{
+    font-family: 'Bebas Neue';
+    margin-top:150px ;
+    letter-spacing: 2px;
+    font-size: 4.0rem;
+    margin-bottom: 50px;
+    margin-top: 55px;
+}
+
+.caixa-cursos{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.12rem;
+    margin-left: 60px;
+    list-style: none;
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+
+
+
+
+/* RODAPE */
+.rodape {
+    color: #fcfcfc;
+    background-color: #493570;
+    padding: 22px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0rem;
+    font-weight: 400;
+    box-shadow: 0px 0px 10px #6a22df, 0px 0px 10px #6a22df;
+    margin-bottom: 0;
+}
+
+.rodape a{
+    color: #6e6969;
+}
+
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+:root {
+    --cor-primaria: #0000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22c0df;
+}
+
+@media(max-width:1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .cabecalho {
+        padding: 10%;
+
+    }
+
+    .cabecalho-menu {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .apresentacao-conteudo {
+        width: auto;
+    }
+}
