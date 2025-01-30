@@ -65,7 +65,7 @@ body {
 /* TELA INICIAL */
 
 .inicio{
-    background-image: url(./imagens/fundo-habil.jpg);
+    background-image: url(../imagens/fundo-habil.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -78,12 +78,12 @@ body {
 
 
 span {
-    color: hwb(266 1% 0%);
+    color: hwb(280 1% 0%);
 }
 
 .apresentacao {
     width: 100%;
-    padding: 9% 15%;
+    padding: 8% 14%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -96,29 +96,32 @@ span {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
     text-decoration: none;
     
 }
 
 .apresentacao-conteudo-titulo {
-    font-size: 2.20rem;
+    font-size: 2.0rem;
     font-family: 'Krona One', sans-serif;
     color: #3700ff;
-    margin-top: -100px;
+    margin-top: -120px;
 }
 
 .apresentacao-conteudo-paragrafo-home {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
     
 }
 
 .apresentacao-botoes {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: center;
     gap: 32px;
@@ -126,12 +129,9 @@ span {
 
 }
 
-.imagem {
-    width: 45%;
-    border-radius: 40px;
-    /* border: #6a22df solid 2px; */
-    /* box-shadow: 0px 0px 10px #6a22df, 0px 0px 10px #6a22df; */
-    margin-top: -75px;
+div .imagem {
+    width: 80%;
+    margin-top: -225px;
     margin-left: -45px;
    
 
@@ -140,21 +140,21 @@ span {
 .links-subtitulo {
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    text-align: center;
+   
 }
 
 .apresentacao-link {
     display: flex;
     justify-content: center;
-    /* background-color:#5422df00;  */
     border: 3px solid #6a22df;
-    /* background-image: url(./imagens/projetos-fundo.jpg); */
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    width: 30%;
+    width: 25%;
     text-align: center;
     border-radius: 8px;
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     font-weight: 600;
     padding: 15px 25px;
     color: #f6f6f6;
@@ -165,6 +165,8 @@ span {
 
 .btns-redes-home{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
 }
 
@@ -190,7 +192,7 @@ span {
 }
 
 .sobre-mim{
-    background-image: url(./imagens/fundo-habil.jpg);
+    background-image: url(../imagens/fundo-habil.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -304,7 +306,7 @@ span {
 
 .habilidades-body{
    width: 100%;
-   background-image: url( ./imagens/fundo-habil.jpg);
+   background-image: url( ../imagens/fundo-habil.jpg);
    background-size:cover ;
    background-repeat: no-repeat;
    height: 100%;
@@ -478,6 +480,11 @@ span {
 
 .rodape a{
     color: #6e6969;
+}
+
+.rodape .chatgpt{
+    color: #6e6969;
+
 }
 
 
