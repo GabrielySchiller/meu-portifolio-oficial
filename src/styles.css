@@ -14,7 +14,6 @@
 
 body {
     height:100vh; 
-    box-sizing: border-box;
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,6 +25,8 @@ body {
 
 
 .cabecalho-menu-link {
+    width: 145px;
+    text-align: center;
     font-family: "Doto", sans-serif;
     font-size: 1.05rem;
     font-weight: 700;
@@ -43,6 +44,7 @@ body {
     background-color: transparent;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .cabecalho-menu-link:hover{
@@ -83,7 +85,7 @@ span {
 
 .apresentacao {
     width: 100%;
-    padding: 8% 14%;
+    padding: 9% 18%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -93,7 +95,7 @@ span {
 }
 
 .apresentacao-conteudo {
-    width: 50%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -108,12 +110,15 @@ span {
     font-family: 'Krona One', sans-serif;
     color: #3700ff;
     margin-top: -120px;
+    
 }
 
 .apresentacao-conteudo-paragrafo-home {
     font-size: 1.4rem;
     font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
+    max-width: 100%;
+    text-align: left;
     
 }
 
@@ -126,16 +131,11 @@ span {
     text-align: center;
     gap: 32px;
     margin-top: 20px;
+    margin-left: -20px;
 
 }
 
-div .imagem {
-    width: 80%;
-    margin-top: -225px;
-    margin-left: -45px;
-   
 
-}
 
 .links-subtitulo {
     font-family: 'Krona One', sans-serif;
@@ -158,12 +158,13 @@ div .imagem {
     font-weight: 600;
     padding: 15px 25px;
     color: #f6f6f6;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Poppins", sans-serif;
     text-decoration: none;
     letter-spacing: 1px;
 }
 
 .btns-redes-home{
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,6 +176,11 @@ div .imagem {
     box-shadow: 0px 0px 10px #6a22df, 0px 0px 10px #6a22df;
     transition: 0.5s;
     padding: 15px 25px;
+}
+
+div .imagem {
+    width: 100%;
+     margin-top: -225px;
 }
 
 
@@ -209,15 +215,17 @@ div .imagem {
 .apresentacao-conteudo-sobre-mim{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
     max-width: 650px;
-    text-align: justify;
+    text-align: center;
 }
 
 .apresentacao-conteudo-paragrafo{
-  max-width: 610px;
-  font-size: 18px;
-  letter-spacing: 0px;
+  max-width: 620px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
   font-family: "Geist Mono", monospace;
 
 }
@@ -225,8 +233,8 @@ div .imagem {
 
 .imagem-sobre{
     border-radius: 50%;
-    margin-top: -120px;
-    width: 400px;
+    margin-top: -140px;
+    width: 390px;
     
 }
 
@@ -237,6 +245,8 @@ div .imagem {
 }
 
 .entre-contato{
+    display: flex;
+    flex-direction: column;
     font-family: 'Bebas Neue';
     letter-spacing: 1px;
     font-size: 20px;
@@ -244,14 +254,21 @@ div .imagem {
 
 
 .redes1{
+    display: flex;
    flex-direction:row ;
-   display: flex;
+   justify-content: center;
+   align-items: center;
    gap: 15px;
    width: 15px;
 }
 
 .redes1 .btn{
+
     padding: 5px 7px;
+}
+
+.btn img{
+    width: 35px;
 }
 
 .gmail-btn{
@@ -268,17 +285,6 @@ div .imagem {
    margin-top: -15px;
 }
 
-#copiar{
-    font-size: 16px;
-    padding: 2px 5px;
-    font-family: 'Bebas Neue', sans-serif ;
-    letter-spacing: 0.5px;
-    font-weight: 100;
-    border-radius: 1px;
-    background-color: transparent;
-    border: 1.5px solid #4e0560;
-    color: #fff;
-}
 
 .foto-h{
     border-radius: 30px;
@@ -383,7 +389,7 @@ div .imagem {
     padding: 1%;
     flex-direction: column;
     gap: 45px;
-    border-top: 10px solid #4e0560;
+    border-top: 10px solid #540567;
 
 }
 
@@ -392,10 +398,14 @@ div .imagem {
 }
 
 .cartao-habil p{
+    display: flex;
+    align-items: center;
     font-size: 1.3rem;
     letter-spacing: 1px;
     font-family: "Bebas Neue";
     max-width: 500px;
+    height: 80px;
+    text-align: center;
 }
 
 
@@ -407,7 +417,7 @@ div .imagem {
 
 .seta{
     display: inline-block;
-     margin-top: 60px; 
+     margin-top: 80px; 
      animation: animarSeta 1s ease-in-out infinite alternate;
   
 }
@@ -424,30 +434,34 @@ div .imagem {
 
 
 
-/* Certificados */
+/* Cursos */
 
 .cursos{
     display: flex;
     flex-direction: column;
     background-color: #272727;
-    border-top: 3px #9d00ff solid;
-    margin-top: -50px;
+    margin-top: -100px;
 }
 
 .caixa-titulo{
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 0px;
+    padding: 50px;
+    background: rgb(155,100,241);
+    background: linear-gradient(90deg, rgba(155,100,241,1) 0%, rgba(70,16,213,1) 49%, rgba(190,77,236,1) 100%);
 }
 
 .t-cursos{
     font-family: 'Bebas Neue';
-    margin-top:150px ;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     font-size: 4.0rem;
+    margin-top:150px ;
     margin-bottom: 50px;
     margin-top: 55px;
+    
 }
 
 .caixa-cursos{
@@ -456,10 +470,11 @@ div .imagem {
     gap: 7px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.12rem;
-    margin-left: 60px;
     list-style: none;
     line-height: 30px;
+    margin-left: 60px;
     margin-bottom: 70px;
+    margin-top: 80px;
 }
 
 
