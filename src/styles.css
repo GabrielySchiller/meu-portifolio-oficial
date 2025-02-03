@@ -115,7 +115,8 @@ span {
 
 .apresentacao-conteudo-paragrafo-home {
     font-size: 1.4rem;
-    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+    font-family: "Geist Mono", monospace;
     margin-top: 20px;
     max-width: 100%;
     text-align: left;
@@ -158,9 +159,9 @@ span {
     font-weight: 600;
     padding: 15px 25px;
     color: #f6f6f6;
-    font-family: "Poppins", sans-serif;
+    font-family: "Geist Mono", monospace;
     text-decoration: none;
-    letter-spacing: 1px;
+   
 }
 
 .btns-redes-home{
@@ -205,7 +206,6 @@ div .imagem {
 }
 
 .titulo-sobre-mim{
-    /* font-family: "Doto", sans-serif; */
     font-family: 'Bebas Neue';
     font-size: 3.1rem;
     letter-spacing: 5px;
@@ -389,7 +389,8 @@ div .imagem {
     padding: 1%;
     flex-direction: column;
     gap: 45px;
-    border-top: 10px solid #540567;
+    border-top: 10px solid #66057f;
+    font-family: "Geist Mono", monospace;
 
 }
 
@@ -400,12 +401,11 @@ div .imagem {
 .cartao-habil p{
     display: flex;
     align-items: center;
-    font-size: 1.3rem;
-    letter-spacing: 1px;
-    font-family: "Bebas Neue";
+    font-size: 1.05rem;
     max-width: 500px;
     height: 80px;
     text-align: center;
+
 }
 
 
@@ -458,9 +458,10 @@ div .imagem {
     font-family: 'Bebas Neue';
     letter-spacing: 4px;
     font-size: 4.0rem;
-    margin-top:150px ;
+    margin-top:100px ;
     margin-bottom: 50px;
     margin-top: 55px;
+    text-shadow:0px 0px 10px #0f021fe5, 0px 0px 10px #360572 ;
     
 }
 
@@ -468,13 +469,21 @@ div .imagem {
     display: flex;
     flex-direction: column;
     gap: 7px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Geist Mono", monospace;
+    letter-spacing: -0.5px;
     font-size: 1.12rem;
     list-style: none;
     line-height: 30px;
     margin-left: 60px;
     margin-bottom: 70px;
-    margin-top: 80px;
+    margin-top: 55px;
+}
+
+.certificado {
+    color: rgb(176, 68, 244);
+    font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+
 }
 
 
