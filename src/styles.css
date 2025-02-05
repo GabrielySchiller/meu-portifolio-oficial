@@ -67,10 +67,10 @@ body {
 /* TELA INICIAL */
 
 .inicio{
+    height: 100%;
     background-image: url(../imagens/fundo-habil.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
     
 }
 
@@ -114,7 +114,7 @@ span {
 }
 
 .apresentacao-conteudo-paragrafo-home {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     letter-spacing: -1px;
     font-family: "Geist Mono", monospace;
     margin-top: 20px;
@@ -182,6 +182,7 @@ span {
 div .imagem {
     width: 100%;
      margin-top: -225px;
+    
 }
 
 
