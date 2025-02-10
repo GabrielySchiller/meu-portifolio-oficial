@@ -26,6 +26,9 @@ body {
 
 
 .cabecalho-menu-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 145px;
     text-align: center;
     font-family: "Doto", sans-serif;

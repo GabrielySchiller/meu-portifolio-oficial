@@ -1,18 +1,85 @@
 /* CABEÇALHO */
 
-@media (max-width: 1030px) {
+@media (max-width: 1200px) {
 .cabecalho-menu{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    margin-bottom: 100px;
 } 
 
 .cabecalho{
     gap: -10px;
 }
 
+.apresentacao{
+    justify-self: center;
+    flex-direction: row;
+    width: 95%;
+    margin: 0;
+}
+
+.container-img-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 190px;
+    margin-bottom: 90px;
+    width: 850px;
+    height: 50px;
+    text-align: center;
+   
+ }
+
+ .textos-home{
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.btns-redes-home{
+    margin-bottom: 50px;
+}
+
+
+
+}
+
+@media (max-width: 900px){
+
+    .cabecalho-menu{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 100px;
+    } 
+
+    .apresentacao{
+        justify-self: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .container-img-home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 190px;
+        margin-bottom: 90px;
+        width: 350px;
+        height: 50px;
+        text-align: center;
+       
+     }
+
+     .textos-home{
+        width: 95%;
+        margin-bottom: 50px;
+    }
 
 }
 
@@ -30,6 +97,10 @@
         padding:5px 0px;
         width: 140px;
         font-size: 16px;
+    }
+
+    .cabecalho-menu-link:hover{
+        padding: 5px 0px;
     }
 
     .apresentacao{
@@ -85,10 +156,25 @@
         font-size: 14px;
     }
 
+    .cabecalho-menu-link:hover{
+        padding: 5px 0px;
+    }
+
+    .apresentacao-botoes{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+
+
+    }
+
     
     
      .container-img-home{
-        margin-top: 20px;
+        margin-top: 190px;
         width: 250px;
         height: 100px;
        
@@ -98,23 +184,32 @@
 
 @media (max-width: 580px){
     .cabecalho-menu{
-        gap: 15px;
-        width: 100%;
+        gap: 10px;
+        width: 101%;
         margin-bottom: 100px;
      }
 
      .cabecalho-menu-link {
-        padding:5px 0px;
+        padding:5px 4px;
         width: 100px;
         font-size: 13px;
     }
 
-    /* .apresentacao{
+    .cabecalho-menu-link:hover{
+        padding: 5px 4px;
+    }
+     .apresentacao{
         justify-self: center;
         flex-direction: column;
         width: 100%;
         margin: 0;
-    } */
+    } 
+
+    .apresentacao-conteudo{
+        width: 99%;
+
+       
+    }
 
      .container-img-home{
         display: flex;
@@ -136,16 +231,23 @@
 }
 
 @media (max-width: 490px){
+    
     .cabecalho-menu{
+        text-align: center;
         gap: 15px;
         width: 100%;
         margin-bottom: 120px;
      }
 
      .cabecalho-menu-link {
-        padding: 5px 1px;
-        width: 95px;
+        padding: 5px 5px;
+        width: 98px;
+        height: 42px;
         font-size: 12px;
+        text-align: center;
+    }
+    .cabecalho-menu-link:hover{
+        padding: 5px 5px;
     }
 
 
@@ -182,35 +284,43 @@
         padding: 8px 10px;
     }
 
-    /* .container-img-home{
-         display: flex;
-        justify-content: center;
-        align-items: center; 
-        margin-top: 190px;
-        margin-bottom: 90px;
-        width: 250px;
-        height: 50px;
-         text-align: center; 
-       
-     } */
+    .rodape{
+        font-size: 0.8rem ;
 
-     /* .container-img-home img{
-        text-align: center;
-       width: 300px;
-     } */
+    }
+
+
 }
 
 @media (max-width: 385px){
+
+    .cabecalho-menu{
+        gap: 7px;
+    }
+   
 
     .links-subtitulo{
         font-size: 1.0rem;
     }
 
-    .btns-redes-home{
+    .apresentacao-botoes{
+        width: 100%;
         display: flex;
-        margin: 0;
         justify-content: center;
-        gap: 7px;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+
+
+    }
+
+    .btns-redes-home{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        gap: 5px;
     }
 
     .apresentacao-link{
@@ -220,7 +330,7 @@
     }
 
     .apresentacao-link:hover{
-        padding: 8px 10px;
+        padding: 6px 8px;
     }
 
     .container-img-home img{

@@ -1,0 +1,27 @@
+@media (max-width: 1200px){
+    .cabecalho-menu{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 100px;
+    } 
+    
+    .cabecalho{
+        gap: -10px;
+    }
+    
+}
+
+@media (max-width: 900px){
+    .minha-apresentacao{
+        flex-direction: column;
+       
+    }
+
+    .apresentacao-conteudo-sobre-mim{
+        margin-bottom: 100px;
+
+    }
+}
