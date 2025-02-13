@@ -43,6 +43,7 @@ body {
 }
 
 .cabecalho {
+    width: 100%;
     margin-top: 10px;
     padding: 2% 0% -0% 0%;
     background-color: transparent;
@@ -62,8 +63,11 @@ body {
 }
 
 .cabecalho-menu {
+    width: 100%;
     gap: 120px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 30px;
 }
 
@@ -329,37 +333,42 @@ div .imagem {
 
 .apresentacao-h{
     width: 100%;
-    padding: 5% 10%;
+     padding: 15px 80px; 
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
     gap: 80px;
-    margin-top: 0px;
+    margin-top: 100px;
 }
 
 .conteiner-principal-habil{
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 
    
 }
 
 .habilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     border-radius: 30px;
-    padding: 150px 60px;
+    padding: 150px 50px;
     z-index: 1;
 }
 
 .titulo-habil h1{
     margin-top: -100px;
     margin-bottom: 60px;
-    padding-right: 50px;
+    /* padding-right: 50px; */
     font-family: 'Bebas Neue';
-    letter-spacing: 1.5px;
+    letter-spacing: 4.6px;
     color: #F6F6F6;
     font-size: 4.0rem;
 
@@ -377,12 +386,13 @@ div .imagem {
     display: flex;
     gap: 20px;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 
 }
 
 .cartao-habil{
-    width: 18%;
+    width: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -479,7 +489,7 @@ div .imagem {
     font-size: 1.12rem;
     list-style: none;
     line-height: 30px;
-    margin-left: 60px;
+    margin-left: 30px;
     margin-bottom: 70px;
     margin-top: 55px;
 }
