@@ -392,7 +392,7 @@ div .imagem {
 }
 
 .cartao-habil{
-    width: 15%;
+    width: 14%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -410,7 +410,7 @@ div .imagem {
 }
 
 .cartao-habil img{
-    width: 120px;
+    width: 100px;
 }
 
 .cartao-habil p{
@@ -439,10 +439,10 @@ div .imagem {
 
 @keyframes animarSeta {
     0% {
-      transform: translateY(0); /* Posição inicial */
+      transform: translateY(0); 
     }
     100% {
-      transform: translateY(-35px); /* Posição final, movendo para cima */
+      transform: translateY(-35px);
     }
 }
 
@@ -483,10 +483,10 @@ div .imagem {
 .caixa-cursos{
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 15px;
     font-family: "Geist Mono", monospace;
     letter-spacing: -0.5px;
-    font-size: 1.12rem;
+    font-size: 1.0rem;
     list-style: none;
     line-height: 30px;
     margin-left: 30px;

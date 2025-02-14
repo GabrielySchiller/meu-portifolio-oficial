@@ -32,6 +32,11 @@
         padding: 15px 50px ;
     }
 
+    .caixa-cursos{
+        margin-right: 12px;
+        gap: 25px;
+    }
+
 
 }
 
@@ -54,6 +59,10 @@
     .cabecalho-menu-link:hover{
         padding: 5px 0px;
     }
+
+    .caixa-seta{
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 720px){
@@ -67,11 +76,15 @@
     }
 
     .titulo-habil{
+        margin-top: 100px;
         padding: 0;
     }
     .caixa-cursos{
         margin-right: 10px;
         gap: 25px;
+    }
+    .caixa-seta{
+        margin-bottom: 150px;
     }
 
 }
@@ -92,7 +105,7 @@
     }
 
     .caixa-seta{
-        margin-bottom: 120px;
+        margin-bottom: 150px;
     }
 }  
 
@@ -116,6 +129,10 @@
         padding: 15px 20px ;
     }
 
+    .t-cursos{
+        font-size: 3.2rem;
+    }
+
     .caixa-cursos{
         margin-right: 15px;
         gap: 25px;
@@ -125,13 +142,13 @@
 
     @media (max-width: 590px){
     .cabecalho-menu{
-        gap: 10px;
-        width: 101%;
+        gap: 15px;
+        width: 100%;
      }
 
      .cabecalho-menu-link {
         padding:5px 4px;
-        width: 100px;
+        width: 105px;
         font-size: 13px;
     }
 
@@ -148,7 +165,6 @@
     }
 
     .titulo-habil h1{
-       
         font-size: 2.7rem;
     }
 
@@ -161,7 +177,7 @@
     }
 }
 
-@media (max-width: 490px){
+@media (max-width: 520px){
     
     .cabecalho-menu{
         text-align: center;
@@ -182,15 +198,28 @@
     }
 
     .titulo-habil h1{
-       margin-top: 10px;
+       margin-top: -100px;
         font-size: 2.3rem;
+    }
+
+    .caixa-seta img{
+        width: 80px;
     }
 }
 
 @media (max-width: 385px){
 
     .cabecalho-menu{
-        gap: 7px;
+        gap: 8px;
+    }
+
+    .cabecalho-menu-link{
+        font-size: 0.6rem;
+    }
+
+    .titulo-habil {
+        width: 100%;
+        text-align: center;
     }
 
     .cartao-habil{
@@ -210,6 +239,11 @@
         font-size: 1.0rem;
         padding: 10px;
 
+    }
+
+
+    .t-cursos{
+        font-size: 2.6rem;
     }
 }
 
