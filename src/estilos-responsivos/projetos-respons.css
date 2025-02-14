@@ -1,0 +1,132 @@
+@media (max-width: 1200px) {
+    .cabecalho-menu{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 100px;
+    } 
+    
+    .cabecalho{
+        gap: -10px;
+    }
+}
+
+
+@media (max-width: 860px){
+    .cabecalho-menu{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 0px;
+    } 
+
+    .cabecalho-menu-link{
+        padding:5px 0px;
+        width: 140px;
+        font-size: 16px;
+    }
+
+    .cabecalho-menu-link:hover{
+        padding: 5px 0px;
+    }
+}
+
+@media (max-width: 690px){
+    .cabecalho-menu{
+       gap: 15px;
+       width: 100%;
+    }
+}
+
+@media (max-width: 630px){
+    .cabecalho-menu{
+        gap: 10px;
+     }
+
+     .cabecalho-menu-link{
+        padding:5px 0px;
+        width: 130px;
+        font-size: 14px;
+    }
+
+    .cabecalho-menu-link:hover{
+        padding: 5px 0px;
+    }
+
+    .projetos .titulo{
+        font-size: 3.0rem;
+
+    }
+}
+
+@media (max-width: 590px){
+    .cabecalho-menu{
+        gap: 15px;
+        width: 100%;
+     }
+
+     .cabecalho-menu-link {
+        padding:5px 4px;
+        width: 105px;
+        font-size: 13px;
+    }
+
+    .cabecalho-menu-link:hover{
+        padding: 5px 4px;
+    }
+}
+
+@media (max-width: 520px){
+    
+    .cabecalho-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+        width: 100%;
+     
+     }
+
+     .cabecalho-menu-link {
+        padding: 5px;
+        width: 98px;
+        height: 42px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .cabecalho-menu-link:hover{
+        padding: 5px ;
+    }
+
+    .projetos .titulo{
+        font-size: 2.8rem;
+
+    }
+}
+
+@media (max-width: 385px){
+
+    .cabecalho-menu{
+        gap: 8px;
+    }
+
+    .cabecalho-menu-link{
+        font-size: 0.6rem;
+    }
+
+    .projetos .titulo{
+        font-size: 2.1rem;
+
+    }
+
+    .projetos .btn-mostrar-projetos {
+        width: 150px;
+        padding: 10px;
+        font-size: 1.1rem;
+    }
+}

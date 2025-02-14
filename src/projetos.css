@@ -26,6 +26,7 @@ html {
 }
 
 body {
+	width: 100%;
 	font-family: "Bebas Neue";
 	margin: 0 auto;
 	max-width: 1120px;
@@ -58,9 +59,19 @@ body {
 	font-family: "Doto", sans-serif; 
     background-color: transparent;
     display: flex;
+	align-items: center;
     justify-content: center;
 	margin-top: 18px;
 
+}
+
+.cabecalho-menu{
+	width: 100%;
+    gap: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
 }
 
 .cabecalho-menu-link:hover{
@@ -73,11 +84,6 @@ body {
     
 }
 
-.cabecalho-menu {
-    gap: 120px;
-    display: flex;
-    padding-bottom: 30px;
-}
 
 
 
