@@ -146,7 +146,11 @@
 @media (max-width: 385px){
 
     .cabecalho-menu{
-        gap: 7px;
+        gap: 8px;
+    }
+
+    .cabecalho-menu-link{
+        font-size: 0.6rem;
     }
 
     .gmail{
