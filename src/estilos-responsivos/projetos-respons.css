@@ -33,6 +33,7 @@
     .cabecalho-menu-link:hover{
         padding: 5px 0px;
     }
+
 }
 
 @media (max-width: 690px){
@@ -50,6 +51,8 @@
     .cabecalho-menu-link:hover{
         padding: 5px 0px;
     }
+
+   
 }
 
 @media (max-width: 630px){
@@ -71,6 +74,8 @@
         font-size: 3.0rem;
 
     }
+
+   
 }
 
 @media (max-width: 590px){
@@ -160,7 +165,7 @@
     .projetos .btn-mostrar-projetos {
         width: 150px;
         padding: 10px;
-        font-size: 1.1rem;
+        font-size: 1.0rem;
     }
 }
 
