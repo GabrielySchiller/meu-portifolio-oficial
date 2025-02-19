@@ -228,6 +228,17 @@
      
 }
 
+@media (max-width: 555px){
+    .btn-icones{
+        width: 15px;
+    }
+
+    .apresentacao-link{
+        gap: 5px;
+    }
+
+}
+
 @media (max-width: 490px){
     
     .cabecalho-menu{
@@ -274,12 +285,16 @@
     }
 
     .apresentacao-link{
-        width: 105px;
+        width: 115px;
        padding: 8px 10px;
     }
 
     .apresentacao-link:hover{
         padding: 8px 10px;
+    }
+
+    .btn-icones{
+        width: 12px;
     }
 
     .rodape{
@@ -326,7 +341,7 @@
 
     .apresentacao-link{
         font-size: 0.8rem;
-        width: 95px;
+        width: 97px;
        padding: 6px 8px;
     }
 
