@@ -80,6 +80,7 @@ body {
     background-image: url(https://ik.imagekit.io/gabrielySchiller/fundo-habil.jpg?updatedAt=1739920202045);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
     
 }
 
