@@ -183,7 +183,7 @@
 @media (max-width: 580px){
     .cabecalho-menu{
         gap: 10px;
-        width: 101%;
+        width: 100%;
         margin-bottom: 100px;
      }
 

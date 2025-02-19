@@ -211,7 +211,6 @@ span {
 }
 
 .sobre-mim{
-    background-attachment: fixed;
     background-image: url(https://ik.imagekit.io/gabrielySchiller/fundo-habil.jpg?updatedAt=1739920202045);
     background-size: cover;
     background-repeat: no-repeat;
@@ -526,6 +525,7 @@ span {
 
 /* RODAPE */
 .rodape {
+    width: 100%;
     color: #fcfcfc;
     background-color: #493570;
     padding: 22px;
