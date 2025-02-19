@@ -31,6 +31,7 @@
 
     .imagem-sobre {
         margin-bottom: 50px;
+        margin-top: -100px;
     }
 }
 
@@ -117,6 +118,11 @@
     .cabecalho-menu-link:hover{
         padding: 5px 5px;
     }
+    .imagem-sobre {
+        width: 250px;
+        margin-bottom: 60px;
+        margin-top: -100px;
+    }
 }
 
 
@@ -127,18 +133,15 @@
     }
 
     .apresentacao-conteudo-paragrafo{
-        width: 95%;
+        width: 100%;
         word-break: break-word;
     }
 
-    .gmail{
-        font-size: 0.9rem;
-
-    }
 
     .imagem-sobre {
         width: 250px;
-        margin-bottom: 50px;
+        margin-bottom: 60px;
+        margin-top: -100px;
     }
 }
 
@@ -153,22 +156,22 @@
         font-size: 0.6rem;
     }
 
-    .gmail{
+    .apresentacao-conteudo-paragrafo{
         width: 100%;
-        font-size: 0.85rem;
-        text-align: left;
+        word-break: break-word;
+        padding: 12px;
     }
+
+   
 }
 
 @media (max-width: 320px){
-    .gmail{
+
+
+    .apresentacao-conteudo-paragrafo{
         width: 100%;
-        font-size: 0.85rem;
         word-break: break-word;
-        text-align: left;
-
-        
-
+        padding: 10px;
     }
 
 }
