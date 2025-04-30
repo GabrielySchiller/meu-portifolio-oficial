@@ -508,6 +508,45 @@ span {
     
 }
 
+
+.curriculo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    background-color: #55189f;
+    margin-top: 20px;
+    margin-left: 50px ;
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-align: center;
+    gap: 10px;
+    text-shadow:0px 0px 10px #0f021fe5, 0px 0px 10px #360572 ;
+    box-shadow:0px 0px 3px #0f021fe5, 0px 1px 5px #220347 ,0px 2px 6px #0f021fe5 ;
+    border: transparent solid 2px;
+}
+
+.curriculo:hover{
+   transition: 0.5s;
+   background-color: rgb(31, 31, 31);
+   border: #b882fa solid 2px;
+
+}
+
+.curriculo a{
+    text-decoration: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    color: inherit;
+    font-size: 1.0 rem;
+    font-family: "Geist Mono", monospace;
+}
+
+.curriculo img{
+    width: 15px;
+}
+
 .caixa-cursos{
     display: flex;
     flex-direction: column;
@@ -519,7 +558,7 @@ span {
     line-height: 30px;
     margin-left: 30px;
     margin-bottom: 70px;
-    margin-top: 55px;
+    margin-top: 40px;
 }
 
 .certificado {
