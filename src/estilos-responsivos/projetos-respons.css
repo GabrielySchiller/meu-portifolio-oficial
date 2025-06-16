@@ -15,60 +15,24 @@
 
 
 @media (max-width: 860px){
-    .cabecalho-menu{
-        width: 100%;
+   .menu-mobile{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        margin-bottom: 0px;
-    } 
-
-    .cabecalho-menu-link{
-        padding:5px 0px;
-        width: 140px;
-        font-size: 16px;
+        z-index: 10;
     }
 
-    .cabecalho-menu-link:hover{
-        padding: 5px 0px;
+    .cabecalho {
+        display: none;
+    }
+
+    .projetos .titulo{
+        margin-top: 50px;
     }
 
 }
 
-@media (max-width: 690px){
-    .cabecalho-menu{
-       gap: 15px;
-       width: 100%;
-    }
 
-    .cabecalho-menu-link{
-        padding:5px 0px;
-        width: 130px;
-        font-size: 14px;
-    }
-
-    .cabecalho-menu-link:hover{
-        padding: 5px 0px;
-    }
-
-   
-}
 
 @media (max-width: 630px){
-    .cabecalho-menu{
-        gap: 10px;
-     }
-
-     .cabecalho-menu-link{
-        padding:5px 0px;
-        width: 130px;
-        font-size: 14px;
-    }
-
-    .cabecalho-menu-link:hover{
-        padding: 5px 0px;
-    }
 
     .projetos .titulo{
         font-size: 3.0rem;
@@ -78,53 +42,13 @@
    
 }
 
-@media (max-width: 590px){
-    .cabecalho-menu{
-        gap: 15px;
-        width: 100%;
-     }
-
-     .cabecalho-menu-link {
-        padding:5px 4px;
-        width: 105px;
-        font-size: 13px;
-    }
-
-    .cabecalho-menu-link:hover{
-        padding: 5px 4px;
-    }
-}
 
 @media (max-width: 520px){
 
     body{
         padding: 10px 20px;
     }
-    
-    .cabecalho-menu{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        gap: 10px;
-        width: 100%;
-     
-     }
-
-     .cabecalho-menu-link {
-        padding: 5px 4px;
-        /* width: 95px; */
-        height: 30px;
-        font-size: 12px;
-        text-align: center;
-        padding: 3px 5px;
-    }
-    
-    .cabecalho-menu-link:hover{
-        padding: 5px 4px;
-    }
-
-
+   
     .projetos .titulo{
         font-size: 2.8rem;
 
@@ -132,30 +56,6 @@
 }
 
 @media (max-width: 430px){
-    .cabecalho{
-        width: 100%;
-    }
-
-    .cabecalho-menu{
-        width: 100%;
-        gap: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .cabecalho-menu-link{
-        text-align: center;
-        font-size: 12px;
-        height: 35px;
-        padding:  5px ;
-        margin: 0;
-    }
-    
-    .cabecalho-menu-link:hover{
-        padding: 5px ;
-    }
 
     .projetos .titulo{
         font-size: 2.1rem;
@@ -169,13 +69,4 @@
     }
 }
 
-@media (max-width: 385px){
 
-    .cabecalho-menu{
-        gap: 8px;
-    }
-
-    .cabecalho-menu-link{
-        font-size: 0.6rem;
-    }
-}

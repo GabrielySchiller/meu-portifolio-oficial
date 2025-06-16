@@ -84,25 +84,16 @@
 }
 
 @media (max-width: 790px){
-    .cabecalho-menu{
-        width: 100%;
+
+    .menu-mobile{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-        margin-bottom: 100px;
-    } 
-
-    .cabecalho-menu-link{
-        padding:5px 0px;
-        width: 140px;
-        font-size: 16px;
     }
 
-    .cabecalho-menu-link:hover{
-        padding: 5px 0px;
+    .cabecalho {
+        display: none;
     }
 
+    
     .apresentacao{
         justify-self: center;
         flex-direction: column;
@@ -130,10 +121,6 @@
 }
 
 @media (max-width: 690px){
- .cabecalho-menu{
-    gap: 15px;
-    width: 100%;
- }
 
  .container-img-home{
     margin-top: 150px;
@@ -146,19 +133,6 @@
 }
 
 @media (max-width: 630px){
-    .cabecalho-menu{
-        gap: 10px;
-     }
-
-     .cabecalho-menu-link{
-        padding:5px 0px;
-        width: 130px;
-        font-size: 14px;
-    }
-
-    .cabecalho-menu-link:hover{
-        padding: 5px 0px;
-    }
 
     .apresentacao-botoes{
         width: 100%;
@@ -181,21 +155,7 @@
 }
 
 @media (max-width: 580px){
-    .cabecalho-menu{
-        gap: 10px;
-        width: 100%;
-        margin-bottom: 100px;
-     }
-
-     .cabecalho-menu-link {
-        padding:5px 4px;
-        width: 100px;
-        font-size: 13px;
-    }
-
-    .cabecalho-menu-link:hover{
-        padding: 5px 4px;
-    }
+   
      .apresentacao{
         justify-self: center;
         flex-direction: column;
@@ -205,6 +165,7 @@
 
     .apresentacao-conteudo{
         width: 99%;
+        margin-top: 260px;
 
        
     }
@@ -240,24 +201,6 @@
 }
 
 @media (max-width: 490px){
-    
-    .cabecalho-menu{
-        text-align: center;
-        gap: 15px;
-        width: 100%;
-        margin-bottom: 160px;
-     }
-
-     .cabecalho-menu-link {
-        padding: 5px 5px;
-        width: 98px;
-        height: 42px;
-        font-size: 12px;
-        text-align: center;
-    }
-    .cabecalho-menu-link:hover{
-        padding: 5px 5px;
-    }
 
 
     .apresentacao-conteudo{
@@ -306,14 +249,6 @@
 }
 
 @media (max-width: 385px){
-
-    .cabecalho-menu{
-        gap: 8px;
-    }
-
-    .cabecalho-menu-link{
-        font-size: 0.6rem;
-    }
 
     .links-subtitulo{
         font-size: 1.0rem;
